@@ -1,7 +1,7 @@
 # data-visualization
 
 
-Visualizing my measured values through time
+Visualizing my field measured values through time, output is a black and white line chart with point values, should be a good format for publication
 
 
 
