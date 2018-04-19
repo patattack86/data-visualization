@@ -1,3 +1,18 @@
+import matplotlib.pyplot as plt
+from matplotlib import dates
+import pandas as pd
+
+data = pd.read_csv("E:/Thesis/Thesis-Excel-files/climate-data.csv", sep = ",")
+
+Temp = data['AvgTemp']
+Pre = data['Precip(in)']
+Dis = data['Discharge, cubic feet per second (Mean)']
+Date = data['X']
+
+#Date = str(Date)
+
+#Date = dates.datestr2num(Date)
+
 def make_patch_spines_invisible(ax):
     ax.set_frame_on(True)
     ax.patch.set_visible(False)
